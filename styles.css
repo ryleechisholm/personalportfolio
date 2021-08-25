@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background: #014BCB;
+    background: #black;
     display: grid;
     grid-template-columns: 10% auto;
     height: 100vh;
@@ -13,24 +13,30 @@ body {
     font-family: 'Nunito';
     grid-gap: .5em;
 }
+
 sidebar {
-    background: #1D3154;
+    background: #3500D3;
 }
+
 .content {
-    background: #6C22FF;
+    background: #0C0032;
     padding: .5em;
     width: 50%;
     margin-right: 2em;
     border-radius: .8em;
 }
+
 h1 {
     margin-left: 1em;
     font-size: 1em;
+    color: white;
 }
+
 h3 {
     margin: 0;
     font-size: .9em;
     color: #FF69F5;
+    color: white;
 }
 
 ul {
@@ -44,26 +50,4 @@ li {
 }
 span {
     float: right;
-}
-
-/*  
-    Your Fixes Below
-    
-    Please keep the same background color
-    and the same sidebar background color.
-    
-*/
-
-body {
-    grid-gap: auto;    /* Improve the white space */
-}
-
-.content {
-    background: auto;  /* Improve the color/contrast */
-    padding: auto;     /* Improve the white space */
-}
-
-h1 {
-    margin-left: 1em;  /* Improve the alignment */
-    font-size: auto;   /* Improve the visual hierarchy */
 }
