@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-    background: #black;
+    background: black;
     display: grid;
     grid-template-columns: 10% auto;
     height: 100vh;
