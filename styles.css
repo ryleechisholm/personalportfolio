@@ -22,8 +22,21 @@ body {
 }
 
 .name {
-  line-height: 200px;
-  height: 200px;
   text-align: center;
-  position: fixed;
+}
+
+.about {
+  text-align: left;
+}
+
+.skills {
+  text-align: left;
+}
+
+.projects {
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
 }
