@@ -29,7 +29,6 @@ body {
   virtical-align: center;
   height: 100vh;
   width: 100%;
-  position: absolute;
 }
 
 .title img {
@@ -39,7 +38,6 @@ body {
     bottom: 0px;
     z-index: -1;
     position: fixed;
-  virtical-align: center;
 }
 
 h2 {
