@@ -21,7 +21,7 @@ body {
   color: black;
 }
 
-h1 {
+.name {
   font-size: 3em;
   text-align: center;
   virtical-align: center;
