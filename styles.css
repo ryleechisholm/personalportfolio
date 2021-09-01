@@ -51,3 +51,12 @@ h2 {
   flex-wrap: wrap;
   color: black;
 }
+
+.name img {
+    min-height: 100vh;
+    min-width: 100vw;
+    filter: brightness(69%);
+    bottom: 0px;
+    z-index: -1;
+    position: fixed;
+}
