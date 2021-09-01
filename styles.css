@@ -22,12 +22,12 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
-  padding-top: 10em;
-  padding-bottom: 10em;
-  padding-left: 15em;
-  padding-right: 15em;
+  margin-top: 10em;
+  margin-bottom: 10em;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 
 h2 {
