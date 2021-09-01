@@ -22,6 +22,7 @@ body {
 }
 
 .name {
+  background: fixed;
   font-size: 3em;
   text-align: center;
   virtical-align: center;
