@@ -28,7 +28,9 @@ body {
   font-size: 3em;
   text-align: center;
   virtical-align: center;
-  background: fixed;
+  height: 100vh;
+  width: 100%;
+}
 }
 
 h2 {
