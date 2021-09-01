@@ -33,9 +33,9 @@ h2 {
   text-align: center;
 }
 
-p {
-  text-align: left;
-  font-size: 1em;
+.text {
+  backgroun-color: rgb(171,171,171);
+  padding: 1em;
 }
 
 .contact {
