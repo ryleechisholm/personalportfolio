@@ -1,5 +1,7 @@
 body {
   background-color: white;
+  padding: 0em;
+  margin: 0em;
 }
 
 .nav {
@@ -26,6 +28,7 @@ body {
   font-size: 3em;
   text-align: center;
   virtical-align: center;
+  background: fixed;
 }
 
 h2 {
