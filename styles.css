@@ -22,7 +22,7 @@ body {
 }
 
 .name {
-  background: fixed;
+  background-image: url("images/sun.png");
   font-size: 3em;
   text-align: center;
   virtical-align: center;
