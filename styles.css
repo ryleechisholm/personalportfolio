@@ -1,5 +1,5 @@
 body {
-  background-image: url("backgrounddark.jpeg");
+  background-image: url("images/backgrounddark.jpeg");
   padding: 0em;
   margin: 0em;
   background-attachment: fixed;
@@ -27,8 +27,8 @@ nav a:hover {
 
 .sticky {
     position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+    position: sticky;
+    top: 0;
 }
 
 .logo {
