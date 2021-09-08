@@ -26,9 +26,9 @@ nav a:hover {
 }
 
 .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 .logo {
@@ -44,7 +44,6 @@ nav a:hover {
     font-size: 5em;
     color: white;
     margin: 0em;
-    height: 100%;
 }
 
 .title2 {
@@ -67,9 +66,8 @@ nav a:hover {
 }
 
 .skillbox1 {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
+    display: flex;
+    justify-content: space-around;
     margin-left: 7em;
     margin-right: 7em;
     padding: 1.5em;
