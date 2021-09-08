@@ -36,10 +36,13 @@ nav a:hover {
     font-size: 17px;  
 }
 
-#title .name {
+#title {
+}
+
+.name {
     text-align: center;
     background-color: rgb(4, 2, 66, .6);
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 4em;
     font-size: 5em;
     color: white;
