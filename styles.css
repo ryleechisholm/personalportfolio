@@ -4,6 +4,8 @@ body {
   margin: 0em;
   background-attachment: fixed;
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 nav {
@@ -27,8 +29,8 @@ nav a:hover {
 
 .sticky {
   position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+	position: sticky;
+	top: 0;
 }
 
 .logo {
@@ -37,24 +39,29 @@ nav a:hover {
 }
 
 #title {
+    height: 100%;
+    width: 100%;
 }
 
 .name {
     text-align: center;
     background-color: rgb(4, 2, 66, .6);
+    padding-bottom: 5em;
     padding-top: 4em;
-    padding-bottom: 4em;
-    font-size: 5em;
+    font-size: 5vw;
     color: white;
     margin: 0em;
+    height: 100%;
+    width: 100%;
 }
 
 .title2 {
     color: #FCFBFC;
     font-size: 3em;
-    padding-bottom: .5em;
     padding: 1.5em;
+    padding-bottom: .5em;
     text-align: left;
+    margin-bottom: 0em;
 
 }
 
@@ -103,44 +110,57 @@ nav a:hover {
     justify-content: space-around;
     margin-left: 7em;
     margin-right: 7em;
-    padding: 1.5em;
     font-size: 1.3em;
     background-color: rgb(3, 12, 140, .7);
     border-radius: 25px;
-    color: white;   
+    color: white;
+    padding: 1.5em;  
+    padding-bottom: 3em;
 }
 
-.projcard {
+.projcard1 {
     height: 230px;
     width: 230px;
-    border-radius: 25px;
-}
-
-.projbox1 {
-    height: 230px;
-    width: 230px;
-    background-image: url("library.png");
+    background-color: purple;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    background-size: cover;
 }
 
-.projbox2 {
+.projcard2 {
     height: 230px;
     width: 230px;
-    background-image: url("asunder.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    background-size: cover;
 }
 
-.projbox3 {
+.projcard3 {
     height: 230px;
     width: 230px;
-    background-image: url("bees.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    background-size: cover;
+}
+
+.projbox {
+    text-align: center;
+    font-size: .9em;
+    height: 230px;
+    width: 230px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    opacity: 0;
+    background: rgb(66,66,66,.7);
+}
+
+.projcard1:hover .projbox {
+    opacity: 1;
+}
+
+.projcard2:hover .projbox {
+    opacity: 1;
+}
+
+.projcard3:hover .projbox {
+    opacity: 1;
 }
 
 .projtitle {
@@ -148,15 +168,15 @@ nav a:hover {
     text-align: center;
     margin: 0em;
     color: white;
-    background-color: rgb(3, 12, 140);
+    background-color: rgb(3, 12, 140, .7);
     padding: .2em;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 .text {
-  background-color: rgb(200,200,200);
-  padding: 1em;
+    background-color: rgb(200,200,200);
+    padding: 1em;
 }
 
 span {
