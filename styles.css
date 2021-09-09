@@ -111,14 +111,14 @@ nav a:hover {
 }
 
 .projcard {
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
     border-radius: 25px;
 }
 
 .projbox1 {
-    height: 170px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
     background-image: url("library.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -126,8 +126,8 @@ nav a:hover {
 }
 
 .projbox2 {
-    height: 170px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
     background-image: url("asunder.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -135,8 +135,8 @@ nav a:hover {
 }
 
 .projbox3 {
-    height: 170px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
     background-image: url("bees.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
