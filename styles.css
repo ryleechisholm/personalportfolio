@@ -113,14 +113,13 @@ nav a:hover {
 .projcard {
     height: 200px;
     width: 200px;
-    background-image: url("library.png");
     border-radius: 25px;
 }
 
 .projbox1 {
     height: 170px;
     width: 200px;
-    background-color: white;
+    background-image: url("library.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
