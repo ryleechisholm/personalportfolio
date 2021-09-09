@@ -146,10 +146,12 @@ nav a:hover {
 .projtitle {
     font-size: 1em;
     text-align: center;
-    margin: .2em;
+    margin: 0em;
     color: white;
-    background-color: rgb(3, 12, 140);
-    background-size: cover;
+    background-color: green;
+    padding: .2em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .text {
