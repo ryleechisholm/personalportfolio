@@ -125,6 +125,8 @@ nav a:hover {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     bakcground-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .projcard2 {
