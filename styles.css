@@ -149,6 +149,7 @@ nav a:hover {
     margin: .2em;
     color: white;
     background-color: rgb(3, 12, 140);
+    background-size: cover;
 }
 
 .text {
