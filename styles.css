@@ -122,6 +122,7 @@ nav a:hover {
     background-image: url("library.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    background-size: cover;
 }
 
 .projbox2 {
@@ -130,6 +131,7 @@ nav a:hover {
     background-image: url("asunder.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    background-size: cover;
 }
 
 .projbox3 {
@@ -138,6 +140,7 @@ nav a:hover {
     background-image: url("bees.png");
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    background-size: cover;
 }
 
 .projtitle {
