@@ -105,7 +105,7 @@ nav a:hover {
     margin-right: 7em;
     padding: 1.5em;
     font-size: 1.3em;
-    background-color: rgb(3, 12, 140);
+    background-color: rgb(3, 12, 140, .7);
     border-radius: 25px;
     color: white;   
 }
@@ -148,6 +148,7 @@ nav a:hover {
     text-align: center;
     margin: .2em;
     color: white;
+    background-color: rgb(3, 12, 140);
 }
 
 .text {
