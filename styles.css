@@ -257,8 +257,6 @@ span {
     }
   
     .projectbox {
-        display: flex;
-        flex-flow: flex-wrap;
         margin-left: 3em;
         margin-right: 3em;
         font-size: 1.3em;
