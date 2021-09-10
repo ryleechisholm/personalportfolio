@@ -80,8 +80,7 @@ nav a:hover {
     background-color: rgb(3, 12, 140, .7);
     font-size: 1.3em;
     color: white;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-radius: 25px;
 }
     
 .card {
@@ -254,11 +253,12 @@ span {
       background-color: rgb(3, 12, 140, .7);
       font-size: 1.3em;
       color: white;
-      border-top-left-radius: 25px;
-      border-top-right-radius: 25px;
+      border-radius: 25px;
     }
   
     .projectbox {
+        display: grid;
+        grid-template-rows: 33.3% 33.3% 33.3%;
         margin-left: 3em;
         margin-right: 3em;
         font-size: 1.3em;
