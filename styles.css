@@ -148,6 +148,12 @@ nav a:hover {
     opacity: 1;
 }
 
+.projdesc {
+    padding: 1em;
+    color: white;
+    font-size: .8em;
+}
+
 .projbox {
     text-align: center;
     height: 198px;
@@ -157,7 +163,6 @@ nav a:hover {
     opacity: 0;
     background: rgb(66,66,66,.7);
     text-decoration: none;
-    color: white;
 }
 
 .projtitle {
@@ -279,10 +284,11 @@ span {
     
     .projcard1 {
       margin-bottom: 1em;
-    }
-     .projcard2 {
-        margin-bottom: 1em;
-     }
+   }
+  
+    .projcard2 {
+      margin-bottom: 1em;
+   }
   
     #title {
       height: 100%;
