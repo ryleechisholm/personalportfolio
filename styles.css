@@ -280,7 +280,9 @@ span {
         border-radius: 25px;
         color: white;
         padding: 1.5em;  
-        padding-bottom: 3em;
+        padding-bottom: 2em;
+        padding-right: 2em;
+        padding-left: 2em;
     }
     
     .projcard1 {
