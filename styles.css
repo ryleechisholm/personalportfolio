@@ -249,4 +249,32 @@ span {
     body {
         background-image: url("backgrounddarkflipped.jpeg");
     }
+  
+    .skillbox {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 25% 25% 25% 25%;
+      margin-left: 3em;
+      margin-right: 3em;
+      padding: 1.2em;
+      background-color: rgb(3, 12, 140, .7);
+      font-size: 1.3em;
+      color: white;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+  
+    .projectbox {
+        display: flex;
+        flex-flow: flex-wrap;
+        margin-left: 3em;
+        margin-right: 3em;
+        font-size: 1.3em;
+        background-color: rgb(3, 12, 140, .7);
+        border-radius: 25px;
+        color: white;
+        padding: 1.5em;  
+        padding-bottom: 3em;
+    }
+    
 }
