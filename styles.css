@@ -161,7 +161,7 @@ nav a:hover {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     opacity: 0;
-    background: rgb(66,66,66,.7);
+    background: rgb(55,55,55,.8);
     text-decoration: none;
     line-height: 1.4;
 }
