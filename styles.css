@@ -112,7 +112,7 @@ nav a:hover {
 }
 
 .projcard1:hover .projbox {
-    opacity: 0;
+    opacity: 1;
 }
 
 .projcard2 {
@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .projcard2:hover .projbox {
-    opacity: 0;
+    opacity: 1;
 }
 
 .projcard3 {
@@ -145,18 +145,19 @@ nav a:hover {
 }
 
 .projcard3:hover .projbox {
-    opacity: 0;
+    opacity: 1;
 }
 
 .projbox {
     text-align: center;
-    font-size: .9em;
     height: 198px;
     width: 230px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     opacity: 0;
     background: rgb(66,66,66,.7);
+    text-decoration: none;
+    color: white;
 }
 
 .projtitle {
