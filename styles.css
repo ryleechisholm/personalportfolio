@@ -163,6 +163,7 @@ nav a:hover {
     opacity: 0;
     background: rgb(66,66,66,.7);
     text-decoration: none;
+    line-height: 1.4;
 }
 
 .projtitle {
