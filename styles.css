@@ -33,11 +33,6 @@ nav a:hover {
   top: 0;
 }
 
-.logo {
-    color: white;
-    font-size: 17px;  
-}
-
 #title {
     height: 100%;
     width: 100%;
@@ -274,4 +269,21 @@ span {
         padding-bottom: 3em;
     }
     
+    #title {
+    height: 100%;
+    width: 100%;
+    }
+
+    .name {
+        text-align: center;
+        background-color: rgb(4, 2, 66, .6);
+        padding-bottom: 5em;
+        padding-top: 4em;
+        font-size: 10vw;
+        color: white;
+        margin: 0em;
+        height: 100%;
+        width: 100%;
+    }
+
 }
