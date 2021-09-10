@@ -109,8 +109,9 @@ nav a:hover {
 .projcard1 {
     background-image: url("library.png");
     border-radius: 25px;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
+    background-size: cover;
 }
 
 .projcard1:hover {
@@ -124,8 +125,9 @@ nav a:hover {
 .projcard2 {
     background-image: url("asunder.png");
     border-radius: 25px;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
+    background-size: cover;
 }
 
 .projcard2:hover {
@@ -139,8 +141,9 @@ nav a:hover {
 .projcard3 {
     background-image: url("bees.png");
     border-radius: 25px;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
+    background-size: cover;
 }
 
 
