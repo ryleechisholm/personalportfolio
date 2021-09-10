@@ -246,4 +246,7 @@ span {
       position: sticky;
       top: 0;
     }
+    body {
+        background-image: url("backgrounddarkflipped.jpeg");
+    }
 }
