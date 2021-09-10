@@ -75,9 +75,10 @@ nav a:hover {
 
 }
 
-.skillbox1 {
-    display: flex;
-    justify-content: space-around;
+.skillbox {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
     margin-left: 7em;
     margin-right: 7em;
     padding: 1.5em;
@@ -86,19 +87,6 @@ nav a:hover {
     color: white;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-}
-
-.skillbox2 {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 7em;
-    margin-right: 7em;
-    padding: 1.5em;
-    background-color: rgb(3, 12, 140, .7);
-    font-size: 1.3em;
-    color: white;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
 }
     
 .card {
