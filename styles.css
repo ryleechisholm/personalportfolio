@@ -67,7 +67,6 @@ nav a:hover {
     color: white;
     background-color: rgb(3, 12, 140, .7);
     border-radius: 25px;
-
 }
 
 .skillbox {
@@ -232,6 +231,14 @@ span {
       position: -webkit-sticky;
       position: sticky;
       top: 0;
+    }
+    #about .text {
+        padding: 1.5em;
+        margin: 2em;
+        font-size:1em;
+        color: white;
+        background-color: rgb(3, 12, 140, .7);
+        border-radius: 25px;
     }
   
     body {
