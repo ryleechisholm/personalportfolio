@@ -109,8 +109,8 @@ nav a:hover {
 .projcard1 {
     background-image: url("library.png");
     border-radius: 25px;
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
 }
 
 .projcard1:hover {
