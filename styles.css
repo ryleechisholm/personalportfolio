@@ -107,12 +107,10 @@ nav a:hover {
 }
 
 .projcard1 {
-    height: 230px;
-    width: 230px;
     background-image: url("library.png");
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    background-attachment: fixed;
+    border-radius: 25px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .projcard2 {
