@@ -34,77 +34,78 @@ nav a:hover {
 }
 
 #title {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .name {
-    text-align: center;
-    background-color: rgb(4, 2, 66, .6);
-    padding-bottom: 5em;
-    padding-top: 4.5em;
-    font-size: 5vw;
-    color: white;
-    margin: 0em;
-    height: 100%;
-    width: 100%;
+  text-align: center;
+  background-color: rgb(4, 2, 66, 0.6);
+  padding-bottom: 5em;
+  padding-top: 4.5em;
+  font-size: 5vw;
+  color: white;
+  margin: 0em;
+  height: 100%;
+  width: 100%;
 }
 
 .title2 {
-    color: #FCFBFC;
-    font-size: 3em;
-    padding: 1.5em;
-    padding-bottom: .5em;
-    text-align: left;
-    margin-bottom: 0em;
-
+  color: #fcfbfc;
+  font-size: 3em;
+  padding: 1.5em;
+  padding-bottom: 0.5em;
+  text-align: left;
+  margin-bottom: 0em;
 }
 
 #about .text {
-    padding: 1.5em;
-    margin: 2em;
-    font-size:1.8em;
-    color: white;
-    background-color: rgb(3, 12, 140, .7);
-    border-radius: 25px;
+  padding: 1.5em;
+  margin: 2em;
+  font-size: 1.8em;
+  color: white;
+  background-color: rgb(3, 12, 140, 0.7);
+  border-radius: 25px;
 }
 
 .skillbox {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-    margin-left: 7em;
-    margin-right: 7em;
-    padding: 1.5em;
-    background-color: rgb(3, 12, 140, .7);
-    font-size: 1.3em;
-    color: white;
-    border-radius: 25px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  margin-left: 7em;
+  margin-right: 7em;
+  padding: 1.5em;
+  background-color: rgb(3, 12, 140, 0.7);
+  font-size: 1.3em;
+  color: white;
+  border-radius: 25px;
 }
-    
+
 .card {
-    margin: 1.5em;
+  margin: 1.5em;
 }
 
 .projectbox {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 7em;
-    margin-right: 7em;
-    font-size: 1.3em;
-    background-color: rgb(3, 12, 140, .7);
-    border-radius: 25px;
-    color: white;
-    padding: 1.5em;  
-    padding-bottom: 3em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 7em;
+  margin-right: 7em;
+  font-size: 1.3em;
+  background-color: rgb(3, 12, 140, 0.7);
+  border-radius: 25px;
+  color: white;
+  padding: 1.5em;
+  padding-bottom: 0;
 }
 
 .projcard1 {
-    background-image: url("library.png");
-    border-radius: 25px;
-    width: 230px;
-    height: 230px;
-    background-size: cover;
+  background-image: url("library.png");
+  border-radius: 25px;
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  margin-bottom: 1.5em;
 }
 
 .projcard1:hover {
@@ -112,202 +113,240 @@ nav a:hover {
 }
 
 .projcard1:hover .projbox {
-    opacity: 1;
+  opacity: 1;
 }
 
 .projcard2 {
-    background-image: url("asunder.png");
-    border-radius: 25px;
-    width: 230px;
-    height: 230px;
-    background-size: cover;
+  background-image: url("asunder.png");
+  border-radius: 25px;
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  margin-bottom: 1.5em;
 }
 
 .projcard2:hover {
-    box-shadow: 0 0 12px aqua;
+  box-shadow: 0 0 12px aqua;
 }
 
 .projcard2:hover .projbox {
-    opacity: 1;
+  opacity: 1;
 }
 
 .projcard3 {
-    background-image: url("bees.png");
-    border-radius: 25px;
-    width: 230px;
-    height: 230px;
-    background-size: cover;
+  background-image: url("bees.png");
+  border-radius: 25px;
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  margin-bottom: 1.5em;
 }
 
-
 .projcard3:hover {
-    box-shadow: 0 0 12px aqua;
+  box-shadow: 0 0 12px aqua;
 }
 
 .projcard3:hover .projbox {
-    opacity: 1;
+  opacity: 1;
+}
+
+.projcard4 {
+  background-image: url("pokemon.png");
+  border-radius: 25px;
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  margin-bottom: 1.5em;
+}
+
+.projcard4:hover {
+  box-shadow: 0 0 12px aqua;
+}
+
+.projcard4:hover .projbox {
+  opacity: 1;
+}
+
+.projcard5 {
+  background-image: url("schedule.png");
+  border-radius: 25px;
+  width: 230px;
+  height: 230px;
+  background-size: cover;
+  margin-bottom: 1.5em;
+}
+
+.projcard5:hover {
+  box-shadow: 0 0 12px aqua;
+}
+
+.projcard5:hover .projbox {
+  opacity: 1;
 }
 
 .projdesc {
-    padding: 1em;
-    color: white;
-    font-size: .8em;
+  padding: 1em;
+  color: white;
+  font-size: 0.8em;
 }
 
 .projbox {
-    text-align: center;
-    height: 198px;
-    width: 230px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    opacity: 0;
-    background: rgb(55,55,55,.8);
-    text-decoration: none;
-    line-height: 1.4;
+  text-align: center;
+  height: 198px;
+  width: 230px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  opacity: 0;
+  background: rgb(55, 55, 55, 0.8);
+  text-decoration: none;
+  line-height: 1.4;
 }
 
 .projtitle {
-    font-size: 1em;
-    text-align: center;
-    margin: 0em;
-    color: white;
-    background-color: rgb(3, 12, 140, .7);
-    padding: .2em;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+  font-size: 1em;
+  text-align: center;
+  margin: 0em;
+  color: white;
+  background-color: rgb(3, 12, 140, 0.7);
+  padding: 0.2em;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .text {
-    background-color: rgb(200,200,200);
-    padding: 1em;
+  background-color: rgb(200, 200, 200);
+  padding: 1em;
 }
 
 span {
-    height: 50px;
-    width: 50px;
-    background-color: black;
+  height: 50px;
+  width: 50px;
+  background-color: black;
 }
 
 .contacts {
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(3, 12, 140, .7);
-    margin-top: 0em;
-    padding-top: 3em;
-    padding-bottom: 3em;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(3, 12, 140, 0.7);
+  margin-top: 0em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .contact {
-    text-align: center;
-    height: 110px;
-    width:200px;
-    margin: 1em;
-    color: white;
+  text-align: center;
+  height: 110px;
+  width: 200px;
+  margin: 1em;
+  color: white;
 }
 
 .icon {
-    font-size: 4em;
+  font-size: 4em;
+}
+
+.icon:hover {
+    font-size: 4.5em;
 }
 
 .label {
-    font-size: 1.4em;
-    margin-top: 0em;
+  font-size: 1.4em;
+  margin-top: 0em;
 }
 
 @media (max-width: 700px) {
-    nav {
-        background-color: rgb(3, 12, 140);
-        overflow: hidden;
-    }
-  
-    nav a {
-        float: left;
-        color: white;
-        text-align: center;
-        padding: 9px 11px;
-        text-decoration: none;
-        font-size: 15px;  
-    }
-  
-    nav a:hover {
-      background-color: white;
-      color: black;
-    }
+  nav {
+    background-color: rgb(3, 12, 140);
+    overflow: hidden;
+  }
 
-    .sticky {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-    }
-    #about .text {
-        padding: 1.5em;
-        margin: 2em;
-        font-size:1em;
-        color: white;
-        background-color: rgb(3, 12, 140, .7);
-        border-radius: 25px;
-    }
-  
-    body {
-        padding: 0em;
-        margin: 0em;
-        background-attachment: fixed;
-        background-size: cover;
-        object-fit: cover;
-        background-image: url("backgrounddarkflipped.jpeg");
-    }
-  
-    .skillbox {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 25% 25% 25% 25%;
-      margin-left: 3em;
-      margin-right: 3em;
-      padding: 1.2em;
-      background-color: rgb(3, 12, 140, .7);
-      font-size: 1.3em;
-      color: white;
-      border-radius: 25px;
-    }
-  
-    .projectbox {
-        display: grid;
-        grid-template-rows: 33.3% 33.3% 33.3%;
-        margin-left: 3em;
-        margin-right: 3em;
-        font-size: 1.3em;
-        background-color: rgb(3, 12, 140, .7);
-        border-radius: 25px;
-        color: white;
-        padding: 1.5em;  
-        padding-bottom: 2em;
-        padding-right: 2em;
-        padding-left: 2em;
-    }
-    
-    .projcard1 {
-      margin-bottom: 1em;
-   }
-  
-    .projcard2 {
-      margin-bottom: 1em;
-   }
-  
-    #title {
-      height: 100%;
-      width: 100%;
-    }
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 9px 11px;
+    text-decoration: none;
+    font-size: 15px;
+  }
 
-    .name {
-        text-align: center;
-        background-color: rgb(4, 2, 66, .6);
-        padding-bottom: 9em;
-        padding-top: 9em;
-        font-size: 10vw;
-        color: white;
-        margin: 0em;
-        height: 100%;
-        width: 100%;
-    }
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
 
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  #about .text {
+    padding: 1.5em;
+    margin: 2em;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(3, 12, 140, 0.7);
+    border-radius: 25px;
+  }
+
+  body {
+    padding: 0em;
+    margin: 0em;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url("backgrounddarkflipped.jpeg");
+  }
+
+  .skillbox {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 1.2em;
+    background-color: rgb(3, 12, 140, 0.7);
+    font-size: 1.3em;
+    color: white;
+    border-radius: 25px;
+  }
+
+  .projectbox {
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 1.3em;
+    background-color: rgb(3, 12, 140, 0.7);
+    border-radius: 25px;
+    color: white;
+    padding: 1.5em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+  .projcard1 {
+    margin-bottom: 1em;
+  }
+
+  .projcard2 {
+    margin-bottom: 1em;
+  }
+
+  #title {
+    height: 100%;
+    width: 100%;
+  }
+
+  .name {
+    text-align: center;
+    background-color: rgb(4, 2, 66, 0.6);
+    padding-bottom: 9em;
+    padding-top: 9em;
+    font-size: 10vw;
+    color: white;
+    margin: 0em;
+    height: 100%;
+    width: 100%;
+  }
 }
