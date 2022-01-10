@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Asunder",
+        "description": "For our Unit 1 project, my partner Logan and I made a rogue-like dungeon crawler titled Asunder.  It is a text-based game based loosely on Dante's Inferno.",
+        "image": "asunder.png",
+        "lang": "Python",
+        "link": "https://github.com/ryleechisholm/asunder/tree/main"
+    },
+    {
+        "name": "Personal Library",
+        "description": "My partner Richard and I made a personal library.  The library allows the user to make an account, edit the books, and make labels for them.",
+        "image": "library.png",
+        "lang": "Python",
+        "link": "https://github.com/ryleechisholm/personallibrary"
+    },
+    {
+        "name": "Pokedex",
+        "description": "Along with partners Michelle and Dylan, I made a Pokédex with Django.  Users can add and view Pokémon.",
+        "image": "pokemon.png",
+        "lang": "HTML, CSS, Django",
+        "link": "https://github.com/ryleechisholm/Unit-4-Group"
+    },
+    {
+        "name": "Clinic Schedule",
+        "description": "A user can create a schedule with a button click, as well as chat with the staff.",
+        "image": "schedule.png",
+        "lang": "HTML, CSS, Django",
+        "link": "https://github.com/ryleechisholm/finalschedule"
+    },
+    {
+        "name": "PizzaPizza",
+        "description": "My partner Jacen and I made an online order system for a restaurant.  We were both inspired by the restaurant we work at.",
+        "image": "pizzapizza.png",
+        "lang": "HTML, CSS, Javascript",
+        "link": "https://github.com/ryleechisholm/finalschedule"
+    }
+]
