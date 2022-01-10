@@ -6,11 +6,30 @@ body {
   background-size: cover;
   width: 100%;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 nav {
   background-color: rgb(3, 12, 140);
   overflow: hidden;
+  z-index: 2;
 }
 
 nav a {
@@ -23,8 +42,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(2, 14, 191);
+  color: white;
 }
 
 .sticky {
@@ -36,6 +55,12 @@ nav a:hover {
 #title {
   height: 100%;
   width: 100%;
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .name {
@@ -100,8 +125,7 @@ nav a:hover {
   padding-bottom: 0;
 }
 
-.projcard1 {
-  background-image: url("library.png");
+.projcard {
   border-radius: 25px;
   width: 230px;
   height: 230px;
@@ -109,82 +133,13 @@ nav a:hover {
   margin-bottom: 1.5em;
 }
 
-.projcard1:hover {
+.projcard:hover {
   box-shadow: 0 0 12px aqua;
 }
 
-.projcard1:hover .projbox {
+.projcard:hover .projbox {
   opacity: 1;
 }
-
-.projcard2 {
-  background-image: url("asunder.png");
-  border-radius: 25px;
-  width: 230px;
-  height: 230px;
-  background-size: cover;
-  margin-bottom: 1.5em;
-}
-
-.projcard2:hover {
-  box-shadow: 0 0 12px aqua;
-}
-
-.projcard2:hover .projbox {
-  opacity: 1;
-}
-
-.projcard3 {
-  background-image: url("bees.png");
-  border-radius: 25px;
-  width: 230px;
-  height: 230px;
-  background-size: cover;
-  margin-bottom: 1.5em;
-}
-
-.projcard3:hover {
-  box-shadow: 0 0 12px aqua;
-}
-
-.projcard3:hover .projbox {
-  opacity: 1;
-}
-
-.projcard4 {
-  background-image: url("pokemon.png");
-  border-radius: 25px;
-  width: 230px;
-  height: 230px;
-  background-size: cover;
-  margin-bottom: 1.5em;
-}
-
-.projcard4:hover {
-  box-shadow: 0 0 12px aqua;
-}
-
-.projcard4:hover .projbox {
-  opacity: 1;
-}
-
-.projcard5 {
-  background-image: url("schedule.png");
-  border-radius: 25px;
-  width: 230px;
-  height: 230px;
-  background-size: cover;
-  margin-bottom: 1.5em;
-}
-
-.projcard5:hover {
-  box-shadow: 0 0 12px aqua;
-}
-
-.projcard5:hover .projbox {
-  opacity: 1;
-}
-
 .projdesc {
   padding: 1em;
   color: white;
@@ -201,6 +156,16 @@ nav a:hover {
   background: rgb(55, 55, 55, 0.8);
   text-decoration: none;
   line-height: 1.4;
+  position: relative;
+}
+
+.projbox .projlang {
+  position: absolute;
+  bottom: 0;
+  padding: .2em;
+  font-size: .8em;
+  color: white;
+  bottom: 0;
 }
 
 .projtitle {
@@ -254,6 +219,7 @@ span {
   font-size: 1.4em;
   margin-top: 0em;
 }
+
 
 @media (max-width: 700px) {
   nav {
