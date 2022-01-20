@@ -1,3 +1,4 @@
+/* Central styling */
 body {
   background-image: url("backgrounddark.jpeg");
   padding: 0em;
@@ -26,6 +27,34 @@ a:active {
   text-decoration: none;
 }
 
+.title2 {
+  color: #fcfbfc;
+  font-size: 3em;
+  padding: 1.5em;
+  padding-bottom: 0.5em;
+  text-align: left;
+  margin-bottom: 0em;
+}
+
+/* Title */
+#title {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(4, 2, 66, 0.6);
+}
+
+.name {
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Nav Bar*/
 nav {
   background-color: rgb(3, 12, 140);
   overflow: hidden;
@@ -52,53 +81,25 @@ nav a:hover {
   top: 0;
 }
 
-#title {
-  height: 100%;
-  width: 100%;
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.name {
-  text-align: center;
-  background-color: rgb(4, 2, 66, 0.6);
-  padding-bottom: 5em;
-  padding-top: 4.5em;
-  font-size: 5vw;
-  color: white;
-  margin: 0em;
-  height: 100%;
-  width: 100%;
-}
-
-.title2 {
-  color: #fcfbfc;
-  font-size: 3em;
-  padding: 1.5em;
-  padding-bottom: 0.5em;
-  text-align: left;
-  margin-bottom: 0em;
-}
-
+/* About */
 #about .text {
   padding: 1.5em;
-  margin: 2em;
+  margin: auto;
+  margin-bottom: 2em;
+  width: 75vw;
   font-size: 1.8em;
   color: white;
   background-color: rgb(3, 12, 140, 0.7);
   border-radius: 25px;
 }
 
+/* Skills */
 .skillbox {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 50% 50%;
-  margin-left: 7em;
-  margin-right: 7em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 75vw;
   padding: 1.5em;
   background-color: rgb(3, 12, 140, 0.7);
   font-size: 1.3em;
@@ -108,15 +109,31 @@ nav a:hover {
 
 .card {
   margin: 1.5em;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  width: 100px;
   text-align: center;
 }
 
+.icon {
+  font-size: 35px;
+}
+
+#django {
+  height: 35px;
+}
+
+#django img {
+  height: 35px;
+}
+
+/* Projects */
 .projectbox {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 7em;
-  margin-right: 7em;
+  margin: auto;
+  width: 75vw;
   font-size: 1.3em;
   background-color: rgb(3, 12, 140, 0.7);
   border-radius: 25px;
@@ -131,6 +148,8 @@ nav a:hover {
   height: 230px;
   background-size: cover;
   margin-bottom: 1.5em;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .projcard:hover {
@@ -190,6 +209,7 @@ span {
   background-color: black;
 }
 
+/* Contact Info */
 .contacts {
   display: flex;
   justify-content: space-around;
@@ -207,11 +227,11 @@ span {
   color: white;
 }
 
-.icon {
+.icon2 {
   font-size: 4em;
 }
 
-.icon:hover {
+.icon2:hover {
     font-size: 4.5em;
 }
 
@@ -220,100 +240,54 @@ span {
   margin-top: 0em;
 }
 
-
 @media (max-width: 700px) {
-  nav {
-    background-color: rgb(3, 12, 140);
-    overflow: hidden;
-  }
+.projectbox {
+  padding: 2%;
+}
 
-  nav a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 9px 11px;
-    text-decoration: none;
-    font-size: 15px;
-  }
-
-  nav a:hover {
-    background-color: white;
-    color: black;
-  }
-
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  #about .text {
-    padding: 1.5em;
-    margin: 2em;
-    font-size: 1em;
-    color: white;
-    background-color: rgb(3, 12, 140, 0.7);
-    border-radius: 25px;
-  }
-
-  body {
-    padding: 0em;
-    margin: 0em;
-    background-attachment: fixed;
+  .projcard {
+    width: 130px;
+    height: 130px;
     background-size: cover;
-    object-fit: cover;
-    background-image: url("backgrounddarkflipped.jpeg");
+    margin-bottom: 5%;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
   }
 
-  .skillbox {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
-    margin-left: 3em;
-    margin-right: 3em;
-    padding: 1.2em;
-    background-color: rgb(3, 12, 140, 0.7);
-    font-size: 1.3em;
-    color: white;
-    border-radius: 25px;
+  .projdesc {
+    padding: 2%;
+    font-size: 0.5em;
+  }
+  
+  .projbox {
+    height: 111px;
+    width: 130px;
+    line-height: 1.4;
+    position: relative;
   }
 
-  .projectbox {
-    display: grid;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-    margin-left: 3em;
-    margin-right: 3em;
-    font-size: 1.3em;
-    background-color: rgb(3, 12, 140, 0.7);
-    border-radius: 25px;
-    color: white;
-    padding: 1.5em;
-    padding-bottom: 2em;
-    padding-right: 2em;
-    padding-left: 2em;
+  .projbox .projlang {
+    position: absolute;
+    bottom: 0;
+    padding: 2%;
+    font-size: .5em;
+    bottom: 0;
   }
 
-  .projcard1 {
-    margin-bottom: 1em;
-  }
-
-  .projcard2 {
-    margin-bottom: 1em;
-  }
-
-  #title {
-    height: 100%;
-    width: 100%;
-  }
-
-  .name {
+  .projtitle {
+    font-size: 1em;
     text-align: center;
-    background-color: rgb(4, 2, 66, 0.6);
-    padding-bottom: 9em;
-    padding-top: 9em;
-    font-size: 10vw;
-    color: white;
     margin: 0em;
-    height: 100%;
-    width: 100%;
+    padding: 0.2em;
+    z-index: 2;
+  }
+
+  .text {
+    padding: 1em;
+  }
+
+  span {
+    height: 50px;
+    width: 50px;
   }
 }
