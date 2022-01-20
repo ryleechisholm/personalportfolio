@@ -259,6 +259,14 @@ span {
 
 @media (max-width: 700px) {
 
+  body {
+    background-image: url("backgrounddarkflipped.jpeg");
+  }
+
+  #title {
+    height: 25vh;
+  }
+
   span {
     height: 50px;
     width: 50px;
