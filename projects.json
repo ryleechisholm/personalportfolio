@@ -1,26 +1,5 @@
 [
     {
-        "name": "Asunder",
-        "description": "For our Unit 1 project, my partner Logan and I made a rogue-like dungeon crawler titled Asunder.  It is a text-based game based loosely on Dante's Inferno.",
-        "image": "asunder.png",
-        "lang": "Python",
-        "link": "https://replit.com/@RyleeChisholm22/Asunder-1#main.py"
-    },
-    {
-        "name": "Personal Library",
-        "description": "My partner Richard and I made a personal library.  The library allows the user to make an account, edit the books, and make labels for them.",
-        "image": "library.png",
-        "lang": "Python",
-        "link": "https://replit.com/@RyleeChisholm22/Unit-2-Project-Copy-1#main.py"
-    },
-    {
-        "name": "Pokedex",
-        "description": "Along with partners Michelle and Dylan, I made a Pokédex with Django.  Users can add and view Pokémon.",
-        "image": "pokemon.png",
-        "lang": "HTML, CSS, Django",
-        "link": "https://github.com/ryleechisholm/Unit-4-Group"
-    },
-    {
         "name": "Clinic Schedule",
         "description": "A user can create a schedule with a button click, as well as chat with the staff.",
         "image": "schedule.png",
@@ -33,5 +12,47 @@
         "image": "pizzapizza.png",
         "lang": "HTML, CSS, Javascript",
         "link": "https://jacenbarefoot.github.io/PizzaPizza/"
+    },
+    {
+        "name": "Pokedex",
+        "description": "Along with partners Michelle and Dylan, I made a Pokédex with Django.  Users can add and view Pokémon.",
+        "image": "pokemon.png",
+        "lang": "HTML, CSS, Django",
+        "link": "https://github.com/ryleechisholm/Unit-4-Group"
+    },
+    {
+        "name": "Personal Library",
+        "description": "My partner Richard and I made a personal library.  The library allows the user to make an account, edit the books, and make labels for them.",
+        "image": "library.png",
+        "lang": "Python",
+        "link": "https://replit.com/@RyleeChisholm22/Unit-2-Project-Copy-1#main.py"
+    },
+    {
+        "name": "Asunder",
+        "description": "For our Unit 1 project, my partner Logan and I made a rogue-like dungeon crawler titled Asunder.  It is a text-based game based loosely on Dante's Inferno.",
+        "image": "asunder.png",
+        "lang": "Python",
+        "link": "https://replit.com/@RyleeChisholm22/Asunder-1#main.py"
+    },
+    {
+        "name": "Clock",
+        "description": "A working clock that displays the day and time by the second.",
+        "image": "asunder.jpg",
+        "lang": "Javascript",
+        "link": "https://replit.com/@RyleeChisholm22/Unit-2-Project-Copy-1#main.py"
+    },
+    {
+        "name": "Connect Four",
+        "description": "The classic game Connect Four.",
+        "image": "connect.jpg",
+        "lang": "Javascript, HTML, CSS",
+        "link": "https://ryleechisholm.github.io/connect-four/"
+    },
+    {
+        "name": "Whack A Mole",
+        "description": "Whack A Mole",
+        "image": "whack.png",
+        "lang": "Javascript, HTML, CSS",
+        "link": "https://ryleechisholm.github.io/whack-a-mole/" 
     }
 ]
