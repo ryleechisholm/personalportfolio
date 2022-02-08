@@ -137,6 +137,14 @@ nav a:hover {
   height: 95px;
 }
 
+#postgres {
+  height: 100px;
+}
+
+#postgres img {
+  height: 95px;
+}
+
 .word {
   border-top: solid white;
   margin: auto;
