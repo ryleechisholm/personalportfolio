@@ -37,14 +37,14 @@
     {
         "name": "Clock",
         "description": "A working clock that displays the date and time by the second.",
-        "image": "clock.jpg",
+        "image": "clock.png",
         "lang": "Javascript",
         "link": "https://ryleechisholm.github.io/clock/"
     },
     {
         "name": "Connect Four",
         "description": "The classic game Connect Four now online.  A simple project to use grids and Javascript.",
-        "image": "connect.jpg",
+        "image": "connect.png",
         "lang": "Javascript, HTML, CSS",
         "link": "https://ryleechisholm.github.io/connect-four/"
     },
