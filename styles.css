@@ -188,11 +188,16 @@ nav a:hover {
   font-size: 0.8em;
 }
 
+.projcard:hover .projbox {
+  opacity: 1;
+}
+
 .projbox {
   text-align: center;
   height: 198px;
   width: 230px;
   border-top-left-radius: 25px;
+  opacity: 0;
   border-top-right-radius: 25px;
   background: rgb(55, 55, 55, 0.8);
   text-decoration: none;
