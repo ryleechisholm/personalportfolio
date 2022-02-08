@@ -36,21 +36,21 @@
     },
     {
         "name": "Clock",
-        "description": "A working clock that displays the day and time by the second.",
-        "image": "asunder.jpg",
+        "description": "A working clock that displays the date and time by the second.",
+        "image": "clock.jpg",
         "lang": "Javascript",
         "link": "https://ryleechisholm.github.io/clock/"
     },
     {
         "name": "Connect Four",
-        "description": "The classic game Connect Four.",
+        "description": "The classic game Connect Four now online.  A simple project to use grids and Javascript.",
         "image": "connect.jpg",
         "lang": "Javascript, HTML, CSS",
         "link": "https://ryleechisholm.github.io/connect-four/"
     },
     {
-        "name": "Whack A Mole",
-        "description": "Whack A Mole",
+        "name": "Whack A Walrus",
+        "description": "Click the walrus as many times as you can before the timer runs out.",
         "image": "whack.png",
         "lang": "Javascript, HTML, CSS",
         "link": "https://ryleechisholm.github.io/whack-a-walrus/" 
