@@ -173,9 +173,6 @@ nav a:hover {
   box-shadow: 0 0 12px aqua;
 }
 
-.projcard:hover .projbox {
-  opacity: 1;
-}
 .projdesc {
   padding: 1em;
   color: white;
@@ -188,7 +185,6 @@ nav a:hover {
   width: 230px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  opacity: 0;
   background: rgb(55, 55, 55, 0.9);
   text-decoration: none;
   line-height: 1.4;
