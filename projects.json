@@ -1,7 +1,7 @@
 [
     {
         "name": "Blood Drive",
-        "description": "A database that stores information about drive dates, donors, and trucks.  When a drive date passes, the program creates a table with dummie information about who donated.",
+        "description": "A database that stores information about blood drives.  When a drive date passes, the program creates a table with dummie information about who donated.",
         "image": "blooddrive.png",
         "lang": "Java, SQL",
         "link": "https://github.com/ryleechisholm/Unit-7-Project"
