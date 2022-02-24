@@ -26,6 +26,7 @@
         "image": "scantable.png",
         "lang": "HTML, Javascript",
         "link": "https://github.com/ryleechisholm/scantable"
+    },
     {
         "name": "Pokedex",
         "description": "Along with partners Michelle and Dylan, I made a Pokédex with Django.  Users can add and view Pokémon.",
