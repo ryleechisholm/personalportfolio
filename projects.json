@@ -21,6 +21,12 @@
         "link": "https://jacenbarefoot.github.io/PizzaPizza/"
     },
     {
+        "name": "Scan13 Data Table",
+        "description": "A program that turns JSON data into an HTML table.  This is a small project now used by Scan13.",
+        "image": "scantable.png",
+        "lang": "HTML, Javascript",
+        "link": "https://github.com/ryleechisholm/scantable"
+    {
         "name": "Pokedex",
         "description": "Along with partners Michelle and Dylan, I made a Pokédex with Django.  Users can add and view Pokémon.",
         "image": "pokemon.png",
@@ -47,13 +53,6 @@
         "image": "clock.png",
         "lang": "Javascript",
         "link": "https://ryleechisholm.github.io/clock/"
-    },
-    {
-        "name": "Connect Four",
-        "description": "The classic game Connect Four now online.  A simple project to use grids and Javascript.",
-        "image": "connect.png",
-        "lang": "Javascript, HTML, CSS",
-        "link": "https://ryleechisholm.github.io/connect-four/"
     },
     {
         "name": "Whack A Walrus",
